@@ -343,6 +343,10 @@ main section:nth-child(2) p {
         font-size: 12px;
     }
 
+    body.active nav ul {
+        background-color: #313131;
+    }
+
     header .foto {
         display: none;
     }
@@ -507,10 +511,6 @@ main section:nth-child(2) p {
 }
 
 body.active nav {
-    background-color: #313131;
-}
-
-body.active nav ul {
     background-color: #313131;
 }
 
